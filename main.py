@@ -43,8 +43,8 @@ st.set_page_config(
     page_title="Milton Electrical App",
 )
 
-st.title("Milton Electrical App")
-st.sidebar.success("Select a page")
+st.title("Milton Auto Electric App")
+st.sidebar.success("Home page")
 
 response = supabase.table('agricultural').select("*").execute()
 data_len = len(response.data)
