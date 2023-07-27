@@ -40,7 +40,7 @@ tr:nth-child(odd) {
 '''
 
 supa_url = 'https://qppfxrvobiivsmmgounc.supabase.co'
-supabase = create_client(supa_url, st.secrets['db']['api'])
+supabase = create_client(supa_url, st.secrets['api'])
 
 st.set_page_config(
     page_title="Milton Electrical App",
