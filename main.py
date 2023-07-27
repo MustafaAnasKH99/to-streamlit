@@ -1,10 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as com
-import requests
-import re
 from bs4 import BeautifulSoup
 import pandas as pd
-import openpyxl
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from supabase import create_client
