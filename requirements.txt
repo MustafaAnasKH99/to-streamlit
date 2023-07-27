@@ -1,5 +1,5 @@
 streamlit
-BeautifulSoup
+beautifulsoup4
 pandas
 selenium
 supabase
