@@ -1,0 +1,5 @@
+streamlit
+BeautifulSoup
+pandas
+selenium
+supabase
