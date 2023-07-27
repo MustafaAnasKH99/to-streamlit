@@ -50,7 +50,11 @@ response = supabase.table('agricultural').select("*").execute()
 data_len = len(response.data)
 data_len_str = "<p>There are <b>" + str(data_len) + "</b> items in this database from Agricultural Category - DB Electrical</p>"
 st.markdown(data_len_str, unsafe_allow_html=True)
+skip = 0
 for row in response.data:
+    if skip < 1:
+      skip += 1
+      continue
     html_string = ""
     # split images
     images_arr = row['images'].split(" ")
